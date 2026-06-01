@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>/64", "setuptools-scm"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "ml_foundations"
+version = "0.1.0"
+requires-python = ">/3.11"
+
+[tool.srtuptools.packages.find]
+where = ["src"]
